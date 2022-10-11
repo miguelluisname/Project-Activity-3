@@ -2,7 +2,7 @@ import urllib.parse
 import requests
 
 main_api = "https://www.mapquestapi.com/directions/v2/route?"
-key = "TjlO2p4xdNigErAirFRSTEDi0JyK4Pm4" //Eto yung code ko sa mapquest -Name
+key = "TjlO2p4xdNigErAirFRSTEDi0JyK4Pm4" #Eto yung code ko sa mapquest -Name
 while True:
     orig = input ("Starting Location :")
     if orig == "quit" or orig == "q":
